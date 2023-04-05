@@ -1,0 +1,10 @@
+p {
+/*This is a simple CSS file with random properties*/
+  color: Purple;
+  background: grey
+  font-weight: bold;
+  text-align: center;
+/*Text shadowing effect added, per page 195*/
+  font-size: 18px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
