@@ -1,0 +1,54 @@
+body {
+    background-color: #242589;
+}
+h1 {
+    color: rgba(8, 141, 165, 1);
+    margin-left: 100px;
+    text-shadow: 1px 0.5px 4px rgba(0, 0, 0, 0.6);
+}
+.container {
+    height: 450px;
+    width: 450px;
+    background-color: #faebd7;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+/*-------------------------------------
+SELECT ALL SQUARES IN ARRAY
+-------------------------------------*/
+.container .squares:nth-child(-n+4):hover{
+    background-image: url("../images/icons/SmileyFace2.png");
+    transform: scale(0.5);
+    animation-name: race;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(2.5, .2, .3, 2);
+}
+.square:nth-child(1):hover {
+    background: #12b4ff;
+}
+.square:nth-child(2):hover {
+    background: #d861af;
+}
+.square:nth-child(3):hover {
+    background: #81205f;
+}
+.square:nth-child(4):hover {
+    background: #77b800;
+}
+/*-------------------------------------
+ANIMATION EFFECT
+-------------------------------------*/
+@keyframes race {
+    0%, 100% {
+        transform: translateY(0px);
+        background-image: url("../images/icons/SmileyFace1.png");
+    }
+    50% {
+        transform: translateY(330px);
+    }
+}
+
+.squares:nth-child(-n+4) p{
+    font-family: 
+}
