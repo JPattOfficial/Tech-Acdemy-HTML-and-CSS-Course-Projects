@@ -1,0 +1,12 @@
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 1em;
+}
+
+.enrollment {
+  width: 50%;
+  margin: 8px 1em;
+  border-top: 1px solid #000;
+  border-right: 2px solid #000;
+  border-radius: 10%;
+}
