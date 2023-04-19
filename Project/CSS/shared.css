@@ -86,8 +86,8 @@ section {
 
 .container {
     padding-right: 15px; 
-    padding-left: 15px; 
-    margin-right: auto; 
+    padding-left: 15px;
+    margin-right: auto;
     margin-left: auto;
 }
 
@@ -189,7 +189,7 @@ forcing any scrollbars*/
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
-    border-radius; 8px;
+    border-radius: 8px;
     margin: 0px auto;
     background-color: rgba(100, 65, 0, .3);
     box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.5);
@@ -204,7 +204,7 @@ forcing any scrollbars*/
     padding: 10px;
     border-radius: 8px;
     margin: 0px auto;
-    background_color: rgba(100, 65, 0, .3);
+    background-color: rgba(100, 65, 0, .3);
     box-shadow: -1px -1px 1px 0 rgba(0, 0, 0, 1), 1px 2px 10px 0 rgba(0, 0, 0, 0.5);
 }
 
@@ -244,7 +244,7 @@ forcing any scrollbars*/
 }
 
 .enrollment p {
-    color: #;13161B;
+    color: #13161B;
     width: 50%;
     margin: 0 auto;
 }
@@ -261,10 +261,10 @@ forcing any scrollbars*/
     border-radius: 7px;
     background: rgb(227, 222, 222);
     box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.3);
-    font-family: 'Raleway', sans-serif;';
+    font-family: 'Raleway', sans-serif;
 }
 
-.enrollment input[type-"text"] {
+.enrollment input[type="text"] {
     font-size: 15px;
     outline: none;
     font-weight: 600;
@@ -279,10 +279,10 @@ forcing any scrollbars*/
     border-radius: 7px;
     background: #13161B;
     box-shadow: inset 0px 3px 0px 0px rgb(5, 5, 5, 0.15);
-    font-family: 'Raleway', sans-serif;';
+    font-family: 'Raleway', sans-serif;
 }
 
-.enrollment input[type-"text"]:hover {
+.enrollment input[type="text"]:hover {
     box-shadow: 0 0 18px rgba(100, 65, 0, 0.8);
 }
 
@@ -298,7 +298,7 @@ forcing any scrollbars*/
     line-height: 5px;
     color: #000;
     cursor: pointer;
-    font-family: 'Raleway', sans-serif;';
+    font-family: 'Raleway', sans-serif;
     font-weight: 600;
     position: relative;
     display: inline;
