@@ -158,9 +158,9 @@ forcing any scrollbars*/
     text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.9);
     font-variant: small-caps;
     color: #fff;
-    letter-spacing: 5pt;
-    word-spacing: 21pt;
-    font-size: 4.5em;
+    letter-spacing: 3pt;
+    word-spacing: 5pt;
+    font-size: 2em;
     text-align: left;
     font-family: impact, sans-serif;
     line-height: 2;
