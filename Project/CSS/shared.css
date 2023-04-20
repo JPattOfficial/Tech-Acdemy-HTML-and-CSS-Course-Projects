@@ -185,7 +185,7 @@ forcing any scrollbars*/
 }
 
 .flex-container {
-    display: -webkit-flex
+    display: -webkit-flex;
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
