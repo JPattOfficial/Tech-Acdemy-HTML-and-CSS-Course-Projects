@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Hogwarts: School of Witchcraft and Wizardry</title>
+    <style>
+        /* Add your CSS styles here */
+    </style>
+</head>
+<body>
+
+<!-- Start Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#enrollment">Enrollment</a></li>
+        </ul>
+    </nav>
+<!-- End Navigation -->
+
+<!-- Start Home -->
+    <section id="home">
+        <h1>Hogwarts: School of Witchcraft and Wizardry</h1>
+        <article>
+            <h2>The Hogwarts Experience</h2>
+            <p>Discover a world of magic and enchantment at Hogwarts School of Witchcraft and Wizardry, where young witches and wizards come to master their spellcasting abilities, unlock the secrets of the universe, and forge lasting friendships. At Hogwarts, we pride ourselves on our rich history, state-of-the-art facilities, and expert faculty, who will guide students through a transformative journey of personal and academic growth.</p>
+        </article>
+    </section>
+<!-- End Home -->
+
+<!-- Start Gallery -->
+    <section id="gallery">
+        <h1>Gallery</h1>
+        <div class="photo-container">
+            <!-- Repeat this structure for each photo container -->
+            <figure>
+                <img src="./Images/Thumb/Thumbnail_1.png" alt="Hogwarts Castle during the day time.">
+                <figcaption>
+                    <h3>Click to Enlarge</h3>
+                    <p>We have open enrollment between <time datetime="2023-08-01">August the 1st</time> until <time datetime="2023-08-28">August the 28th</time>. Mail by owl is preferred and will get the quickest response.</p>
+                </figcaption>
+            </figure>
+            <!-- End of a photo container -->
+        </div>
+    </section>
+<!-- End Gallery-->
+
+<!-- Start Enrollment -->
+    <section id="enrollment">
+        <h1>Enrollment</h1>
+        <h2>We provide young witches and wizards with a high-quality education! Enroll your child today!</h2>
+        <details>
+            <summary>Click for more information</summary>
+            <p>The application process for Hogwarts involves receiving an acceptance letter, typically delivered by owl, which indicates the student has been selected to attend the school. Upon receipt, students must confirm their attendance, gather required supplies from Diagon Alley, and board the Hogwarts Express to begin their magical education.</p>
+        </details>
+        <p>Please provide us your <em>basic information</em> below to get into contact with school staff:</p>
+        <form action="" method="post">
+            <input class="enrollment" type="text" placeholder="Parent's First Name" required>
+            <input class="enrollment" type="text" placeholder="Parent's Last Name" required>
+            <input class="enrollment" type="email" placeholder="Parent's Email Address" required>
+            <input class="enrollment" type="tel" placeholder="Parent's Phone Number" required>
+            <div class="form-spacer">
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">Terms and Conditions</label>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
